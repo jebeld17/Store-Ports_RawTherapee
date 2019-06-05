@@ -1,0 +1,15 @@
+Version: 5.6
+Branch: 5.6
+Commit: 5a4ed7317
+Commit date: 2019-04-20
+Compiler: gcc 8.3.0
+Processor: generic x86
+System: Windows
+Bit depth: 64 bits
+Gtkmm: V3.24.1
+Lensfun: V0.3.2.0
+Build type: release
+Build flags:  -m64 -mwin32 -msse2 -mfpmath=sse -mthreads -Wno-aggressive-loop-optimizations -Wno-parentheses -std=c++11 -mtune=generic -Werror=unused-label -Wall -Wuninitialized -Wno-deprecated-declarations -Wno-unused-result -fopenmp -Werror=unknown-pragmas  -DNDEBUG  -O3 -ftree-vectorize
+Link flags: -m64  -mthreads  -static-libgcc   -mtune=generic  -s  -O3  -fno-use-linker-plugin
+OpenMP support: ON
+MMAP support: ON
